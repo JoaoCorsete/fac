@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+    printf("Hellow, world. \n");
+    printf("Olá, mundo. \n");
+    int x = 3;
+    int y = 4;
+    int soma = x + y;
+    int sub = x - y;
+    int mult = x * y;
+    int Div = x / y;
+    int resto = x % y;
+    printf("x + y = %d \n",soma);
+    printf("x * y = %d \n",mult);
+    printf("x - y = %d \n",sub);
+    printf("x / y = %d   ",Div);
+    printf("resto %d \n",resto);
+    float a = 5;
+    float b =7;
+    float racional = a / b;
+    printf("ou %f \n",racional);
+    
+    
+     return 0;
+}
